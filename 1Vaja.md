@@ -1,90 +1,111 @@
-# Vaja 1: Ideja IT produkta in opredelitev problema
 
-## Namen vaje
 
-Namen prve vaje je, da študent samostojno identificira **konkreten problem ali priložnost**, ki jo je smiselno reševati z IT produktom. Vaja postavlja temelje za celoten projekt pri predmetu **Načrtovanje in razvoj IT produktov (NRP)**.
+# Vaja 1: Identifikacija kompleksnega problema in tržne priložnosti
 
-Poudarek je na razmišljanju *izven tipičnih študentskih idej* ter na realnem ali realno simuliranem trgu.
+## Cilj vaje
+
+Cilj prve vaje je **identificirati kompleksen problem**, ki ni zgolj tehniški izziv, temveč zahteva **multidisciplinaren pristop** (npr. tehnološki, poslovni, uporabniški, organizacijski vidik).
+
+Problem mora biti:
+
+* jasno definiran,
+* dovolj kompleksen,
+* povezan z **realno tržno priložnostjo**.
+
+Ta vaja predstavlja temelj za celoten projekt pri predmetu **Načrtovanje in razvoj IT produktov (NRP)**.
 
 ---
 
 ## Naloga
 
-Izberi **eno unikatno idejo IT produkta**, ki rešuje jasno definiran problem.
+Izberi **en kompleksen problem ali priložnost**, ki jo je smiselno reševati z IT produktom.
 
-Ideja:
+Problem:
 
-* mora imeti **konkretnega uporabnika** (posameznik, podjetje, organizacija),
-* ne sme biti zgolj kopija obstoječih rešitev (npr. še ena ToDo aplikacija brez dodane vrednosti),
-* mora imeti jasno dodano vrednost.
-
----
-
-## Kaj moraš oddati
-
-Pripravi kratek dokument (Markdown ali PDF), ki vsebuje naslednje točke:
-
-### 1. Delovni naslov produkta
-
-* Kratek, jasen in smiseln naziv IT produkta.
-
-### 2. Opis problema
-
-* Kaj je problem?
-* Koga problem zadeva?
-* Zakaj je problem pomemben?
-
-*(Problem opiši brez takojšnjega skoka na rešitev.)*
-
-### 3. Ciljni uporabnik
-
-* Kdo je tipičen uporabnik?
-* V kakšnem okolju deluje?
-* Katere težave ima v praksi?
-
-### 4. Predlagana rešitev (osnovna ideja)
-
-* Kako tvoj IT produkt rešuje opisan problem?
-* Zakaj je rešitev boljša od obstoječih alternativ?
-
-### 5. Primer uporabe (kratek scenarij)
-
-Na kratko opiši konkreten primer uporabe produkta v praksi.
+* mora presegati osnovno aplikacijo ali trivialno avtomatizacijo,
+* ne sme biti zgolj tehnološki eksperiment brez uporabne vrednosti,
+* mora imeti jasen kontekst in posledice, če ostane nerešen.
 
 ---
 
-## Omejitve in priporočila
+## Zahteve
 
-* Rešitev **ni nujno tehnično dokončna**.
-* Osredotoči se na *razmišljanje in logiko*, ne na tehnologijo.
-* Tehnologije (web, mobile, AI, IoT, AR/VR, …) lahko omeniš, niso pa obvezne.
+### 1. Unikatna ideja
+
+Problem mora biti dovolj specifičen in kompleksen, da presega tipične študentske ideje
+(npr. generična ToDo aplikacija, osnovni koledar, preprost CRUD sistem).
+
+### 2. Realen trg
+
+Dokazati moraš, da **obstaja trg**, ki ga problem zadeva.
+To utemeljiš z **vsaj 3 konkretnimi viri**, kot so:
+
+* raziskave,
+* statistični podatki,
+* tržni trendi,
+* poročila ali strokovni članki.
+
+### 3. Dokumentiran problem
+
+Problem mora biti opisan v več kot 2–3 stavkih in podprt z dejstvi.
+Opis naj temelji na podatkih in virih, **ne zgolj na osebnem mnenju**.
 
 ---
 
-## Obseg
+## Kaj moraš oddati (končni izhod)
 
-* Priporočen obseg: **1–2 strani** (Markdown ali PDF).
+Pripravi dokument (Markdown ali PDF), ki vsebuje naslednje elemente:
+
+### 1. Problem Statement
+
+Jasna in strukturirana definicija problema, ki vključuje:
+
+* kontekst,
+* koga problem zadeva,
+* posledice, če problem ostane nerešen.
+
+### 2. Market Research
+
+Analiza trga z:
+
+* dejanskimi številkami,
+* relevantnimi podatki,
+* utemeljitvijo, zakaj je problem tržno zanimiv.
+
+### 3. Viri
+
+Navedi **najmanj 3 verodostojne vire**, npr.:
+
+* znanstvene ali strokovne članke,
+* tržna poročila,
+* uradne statistike,
+* priznane industrijske analize.
 
 ---
 
-## Oddaja
+## Ključni fokus
 
-* Način oddaje: po navodilih izvajalca predmeta
-* Rok: skladno z urnikom
+Problem mora biti **dovolj kompleksen**, da zahteva **večplastno rešitev**
+(tehnologija + uporabniki + procesi + poslovni vidik), ne le preprosto programiranje.
+
+👉 To je **temelj za celoten projekt**, ki ga boš skozi semester nadgrajeval in validiral.
+
+---
+
+## Obseg in oddaja
+
+* Priporočen obseg: **1–2 strani**
+* Format: Markdown ali PDF
+* Način in rok oddaje: po navodilih izvajalca predmeta
 
 Oddaja vaje prinaša **1 % k končni oceni** (sprotno ocenjevanje).
 
 ---
 
-## Merila ocenjevanja
-
-* jasnost in razumljivost problema,
-* realnost in relevantnost ideje,
-* logična povezava med problemom in rešitvijo,
-* unikatnost razmišljanja.
-
----
-
 ## Opomba
 
-Ta vaja predstavlja **temelj projekta**. Idejo boš skozi semester nadgrajeval, izboljševal in validiral – zato izberi problem, ki te dejansko zanima.
+Idejo boš razvijal skozi cel semester, zato izberi problem:
+
+* ki te osebno zanima,
+* ima realen vpliv,
+* in omogoča poglobljeno razmišljanje, ne le tehnične izvedbe.
