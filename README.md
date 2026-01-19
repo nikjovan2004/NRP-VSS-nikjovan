@@ -69,3 +69,24 @@ Eden izmed študentov je istega dne v menzi našel šop ključev z modrim obesko
 Sistem na podlagi časovne in prostorske bližine ter opisa sam izračuna visoko verjetnost ujemanja in Ani pošlje obvestilo, da obstaja 90 % ujemanje z najdenim predmetom. Ana v aplikaciji odpre predlagano ujemanje, skozi vgrajeno sporočanje stopi v stik s študentom, ki je ključe našel, in se dogovorita za prevzem še isti dan.
 
 ---
+
+## 6. Trg (konkurenca in alternative)
+
+- **Splošne platforme izgubljeno–najdeno**  
+  Obstaja spletna stran izgubljeno-najdeno.si, ki omogoča prijavo izgubljenih in najdenih predmetov ter iskanje po lokaciji, datumu in kategoriji, vendar ni vezana na posamezen kampus ali šolo, temveč deluje na ravni celotne države. [web:65]  
+- **Policijski register najdenih predmetov**  
+  Policija vodi javno dostopen seznam najdenih predmetov, ki jih najditelji oddajo policiji; ti se hranijo določeno obdobje, uporabnik pa mora ročno iskati po seznamu ali kontaktirati policijo. Sistem ni prilagojen študentom ali kampusom in je bolj formalen ter počasen. [web:72]  
+- **Ad‑hoc kanali na kampusih**  
+  Večina slovenskih fakultet in šol uporablja kombinacijo fizičnih “lost & found” mest (vratarnica, referat) ter Facebook skupin ali e‑pošte. Informacije so razpršene in ne omogočajo pametnega ujemanja niti centralnega pregleda.
+
+Glede na obstoječe stanje na slovenskem trgu:
+- **ni specializirane kampus rešitve** za slovenske univerze in šole,
+- obstoječe slovenske rešitve so **splošne** (niso vezane na kampus, nimajo modela stavb, nadstropij, fakultet),
+- globalne kampus platforme so namenjene tujim univerzam in niso integrirane v slovenski prostor.
+
+Predlagana rešitev **Izgubljeno & Najdeno Kampus** se pozicionira kot:
+- lokalno prilagojena kampus aplikacija (slovenski jezik, slovenske univerze, tipične lokacije),
+- z **pametnim ujemanjem po času, lokaciji in opisu** ter QR kodami na fizičnih lokacijah,
+- potencialna osnova za širitev na več kampusov v Sloveniji, kjer trenutno ni podobne namenske rešitve.
+
+---
