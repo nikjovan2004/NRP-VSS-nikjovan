@@ -1,4 +1,4 @@
-# DomServices – AI Platforma za Popravila in Nego Doma
+# DomServices – AI Platforma za povezavo med strankami in ponudniki storitev (Wolt za lokalne storitve)
 
 ---
 
@@ -312,3 +312,4 @@ Uporabniki in ponudniki storitev se soočajo s **razdrobljenostjo tržišča, po
 **Unikatnost:** Prva platforma, ki kombinira **AI filtriranje zahtev (Perplexity PRO) + live razpoložljivost + integrirano plačilo + avtomatska dodelitev** – kot "Uber za domače storitve", toda brez visoke provizije in z lokalnim fokussom.
 
 **Konkurenčna prednost:** Enostavnost za ponudnike (študente, obrtnika) + zaupanje za uporabnike (preverjene ocene + Stripe zaščita) = "network efekt" – prvi ponudnik pride, drugi se hitro sledi.
+
