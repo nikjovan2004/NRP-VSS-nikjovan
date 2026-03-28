@@ -1,0 +1,113 @@
+"use client";
+
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { register } from "@/lib/auth";
+
+export default function ProviderRegisterPage() {
+  const router = useRouter();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError("");
+    setLoading(true);
+    const result = await register(email, password, name, "provider");
+    setLoading(false);
+    if (result.success && result.user) {
+      router.push("/provider/onboarding");
+    } else {
+      setError(result.error ?? "Prišlo je do napake.");
+    }
+  };
+
+  return (
+    <main className="w-full max-w-md space-y-6 rounded-lg bg-white p-8 shadow-md">
+      <div className="text-center">
+        <h1 className="text-2xl font-bold text-[#1d283a]">
+          Registracija za ponudnike
+        </h1>
+        <p className="mt-1 text-sm text-[#6b7280]">
+          Ustvarite račun in začnite prejemati naročila
+        </p>
+      </div>
+
+      <form onSubmit={handleSubmit} className="space-y-4">
+        {error && (
+          <div className="rounded-lg bg-red-50 p-3 text-sm text-red-600">
+            {error}
+          </div>
+        )}
+        <div>
+          <label htmlFor="name" className="mb-1 block text-sm font-medium text-[#1d283a]">
+            Ime ali naziv podjetja
+          </label>
+          <input
+            id="name"
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+            className="w-full rounded-lg border border-[#e5e7eb] px-4 py-2 focus:border-[#1d283a] focus:outline-none focus:ring-1 focus:ring-[#1d283a]"
+            placeholder="Janez Kovač ali Kovač d.o.o."
+          />
+        </div>
+        <div>
+          <label htmlFor="email" className="mb-1 block text-sm font-medium text-[#1d283a]">
+            E-pošta
+          </label>
+          <input
+            id="email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            className="w-full rounded-lg border border-[#e5e7eb] px-4 py-2 focus:border-[#1d283a] focus:outline-none focus:ring-1 focus:ring-[#1d283a]"
+            placeholder="ime@primer.si"
+          />
+        </div>
+        <div>
+          <label htmlFor="password" className="mb-1 block text-sm font-medium text-[#1d283a]">
+            Geslo
+          </label>
+          <input
+            id="password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+            minLength={6}
+            className="w-full rounded-lg border border-[#e5e7eb] px-4 py-2 focus:border-[#1d283a] focus:outline-none focus:ring-1 focus:ring-[#1d283a]"
+            placeholder="Vsaj 6 znakov"
+          />
+        </div>
+        <button
+          type="submit"
+          disabled={loading}
+          className="w-full rounded-lg bg-[#1d283a] py-2 font-medium text-white transition hover:bg-[#2a3a4f] disabled:opacity-50"
+        >
+          {loading ? "Registracija..." : "Registracija"}
+        </button>
+      </form>
+
+      <p className="text-center text-sm text-[#6b7280]">
+        Že imate račun?{" "}
+        <Link href="/auth/provider/login" className="font-medium text-[#1d283a] hover:underline">
+          Prijava
+        </Link>
+      </p>
+
+      <Link
+        href="/"
+        className="block text-center text-sm text-[#6b7280] hover:text-[#1d283a]"
+      >
+        ← Nazaj na izbiro vloge
+      </Link>
+    </main>
+  );
+}
