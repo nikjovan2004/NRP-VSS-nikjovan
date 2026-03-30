@@ -1,4 +1,4 @@
-# DomServices – AI Platforma za povezavo med strankami in ponudniki storitev (Wolt za lokalne storitve)
+# DomServices – AI Platforma za povezavo med strankami in ponudniki storitev (Wolt za lokalne storitve) Vaja 1 (samo spremenil ime da se ve, naredil sproti)
 
 ---
 
